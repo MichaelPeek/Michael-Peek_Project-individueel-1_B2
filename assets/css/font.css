@@ -4,15 +4,18 @@
 
 .text-dutch {
     font-family: Barlow-Thin;
+    margin: auto;
 }
 
 .text-jp-normal {
     font-family: NotoSansJP-Regular;
     font-weight: normal;
+    margin: auto;
 }
 
 .text-jp-thin {
     font-family: NotoSansJP-Thin;
+    margin: auto;
 }
 
 @font-face {
