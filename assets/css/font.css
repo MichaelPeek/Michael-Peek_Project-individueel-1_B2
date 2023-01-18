@@ -1,0 +1,51 @@
+.text-center {
+    text-align: center;
+}
+
+.text-dutch {
+    font-family: Barlow-Thin;
+}
+
+.text-jp-normal {
+    font-family: NotoSansJP-Regular;
+    font-weight: normal;
+}
+
+.text-jp-thin {
+    font-family: NotoSansJP-Thin;
+}
+
+@font-face {
+    font-family: 'Barlow-Thin';
+    src: url('../fonts/Barlow-Thin.woff2') format('woff2'),
+         url('../fonts/Barlow-Thin.woff') format('woff'),
+         url('../fonts/Barlow-Thin.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'NotoSansJP-Regular';
+    src: url('../fonts/NotoSansJP-Regular.woff2') format('woff2'),
+         url('../fonts/NotoSansJP-Regular.woff') format('woff'),
+         url('../fonts/NotoSansJP-Regular.ttf') format('truetype');
+    font-weight:normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'NotoSansJP-Thin';
+    src: url('../fonts/NotoSansJP-Thin.woff2') format('woff2'),
+         url('../fonts/NotoSansJP-Thin.woff') format('woff'),
+         url('../fonts/NotoSansJP-Thin.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+.cool-link {
+    text-decoration: none;
+    color: white;
+}

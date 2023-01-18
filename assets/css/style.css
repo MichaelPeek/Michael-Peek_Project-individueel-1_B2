@@ -1,0 +1,20 @@
+@import "/assets/css/grid.css";
+@import "/assets/css/nav.css";
+@import "/assets/css/slide.css";
+@import "/assets/css/font.css";
+
+body {
+    background-color: burlywood;
+}
+
+* {
+    zoom: 1.2;
+}
+
+div {
+    display: block;
+}
+
+*, ::after, ::before {
+    box-sizing: border-box;
+}
