@@ -4,7 +4,9 @@
 @import "./font.css";
 
 body {
-    background-color: burlywood;
+    background-image: url("../images/straatzw.jpg");
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 * {
@@ -17,4 +19,32 @@ div {
 
 *, ::after, ::before {
     box-sizing: border-box;
+}
+
+.blue-box {
+    background-color: #2b5775b7;
+    padding: 0 8px;
+    border-radius: 6px;
+}
+.blue-box, p {
+    font-size: 18px;
+}
+.big-text {
+    font-size: 25px;
+}
+.small-text {
+    font-size: 15px;
+}
+.list, .list-item {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.inspect-btn {
+    background-color: #bfba9d;
+    border: none;
+    border-radius: 4px;
+    margin-top: 10px;
+    margin-left: 5px;
+    
 }

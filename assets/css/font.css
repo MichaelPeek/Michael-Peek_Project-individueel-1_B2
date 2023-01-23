@@ -2,13 +2,24 @@
     text-align: center;
 }
 
+p {
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.text-color-white {
+    color: white;
+}
+
 .text-dutch {
     font-family: Barlow-Thin;
     margin: auto;
 }
 
 .text-jp-normal {
-    font-family: NotoSansJP-Regular;
+    font-family: NotoSansJP-Light-Alphabetic;
     font-weight: normal;
     margin: auto;
 }
@@ -29,10 +40,10 @@
 }
 
 @font-face {
-    font-family: 'NotoSansJP-Regular';
-    src: url('../fonts/NotoSansJP-Regular.woff2') format('woff2'),
-         url('../fonts/NotoSansJP-Regular.woff') format('woff'),
-         url('../fonts/NotoSansJP-Regular.ttf') format('truetype');
+    font-family: 'NotoSansJP-light-Alphabetic';
+    src: url('../fonts/NotoSansJP-Light-Alphabetic.woff2') format('woff2'),
+         url('../fonts/NotoSansJP-Light-Alphabetic.woff') format('woff'),
+         url('../fonts/NotoSansJP-Light-Alphabetic.ttf') format('truetype');
     font-weight:normal;
     font-style: normal;
     font-display: swap;
