@@ -54,7 +54,6 @@
     list-style: none;
     background-color: white;
     transition-duration: .25s;
-    opacity: 90%;
     z-index: 99999999;
   }
   .menu-item {
