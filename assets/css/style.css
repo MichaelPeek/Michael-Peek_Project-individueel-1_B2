@@ -66,6 +66,25 @@ div {
     padding-top: 28px;
 }
 
-.title-style {
-    box-shadow: 60px -16px red;
+.title-box {
+    background: #2b5775b7;
+    width: 80%;
+    position: relative;
+    height: 70%;
+    overflow: visible;
+    float: right;
+}
+
+.title-text {
+    position: absolute;
+    bottom: -20px;
+    left: -30px;
+    line-height: 40px;
+}
+
+.btn-language {
+    background-color: #bfba9db3;
+    border: none;
+    border-radius: 3px;
+    translate: 0px -30px;
 }

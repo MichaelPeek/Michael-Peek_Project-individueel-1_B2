@@ -20,17 +20,32 @@
             <li><a class="menu-item" href="#">Gebarentaal</a></li>
             <li><a class="menu-item" href="#">Spreektaal</a></li>
             <li><a class="menu-item" href="#">Translate</a></li>
-            <li><a class="menu-item" href="#">Feedback</a></li>
+            <li><a class="menu-item" href="mailto:michael.peek@hva.nl">Feedback</a></li>
+            <li class="menu-item">
+                <p>gemaakt door Michael Peek</p><img src="assets/images/jp_logo_vierkant.svg" alt="logo vierkant">
+            </li>
         </ul>
     </div>
 
-    <h1 class="text-dutch text-color-white header-text text-center" style="margin-bottom:20px">Begrijpend lezen in Amsterdam</h1>
+    <h1 class="text-dutch text-color-white header-text text-center" style="margin-bottom:20px">Begrijpend lezen in
+        Amsterdam</h1>
 
     <main class="container">
         <div class="row">
             <div class="col-4"><img height="200" src="assets/images/jp_logo_staand.svg" alt="logo staand"></div>
             <div class="col-8 blue-box">
-                <p class="text-jp-thin text-color-white">アムステルダムのウェブサイト読解へようこそ。 このサイトは、アムステルダムで出会うオランダ語を理解するのに役立つように作成されました。</p>
+                <p id="text-content" class="text-jp-thin text-color-white">アムステルダムのウェブサイト読解へようこそ。このサイトは、アムステルダムで出会うオランダ語を理解するのに役立つように作成されました。</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-4"></div>
+            <div class="col-4">
+                <button class="btn-language text-color-white" style="translate: 0px 4px;" type="button" onclick="switchToNl()">Nederlands</button>
+            </div>
+            <div class="col-4">
+                <button class="btn-language text-color-white" style="float:right; translate: 0px 4px;" type="button"
+                    onclick="switchToJp()">日本</button>
             </div>
         </div>
 
@@ -38,64 +53,64 @@
             <div class="col-12 list">
 
                 <div class="list-item"><a href="bordzoeken.html" class="cool-link">
-                    <div class="row blue-box">
-                        <div class="col-9">
-                            <p class="text-jp-thin big-text">道路標識</p>
-                            <p class="text-dutch small-text">Verkeersborden</p>
+                        <div class="row blue-box">
+                            <div class="col-9">
+                                <p class="text-jp-thin big-text">道路標識</p>
+                                <p class="text-dutch small-text">Verkeersborden</p>
 
+                            </div>
+                            <div class="col-3">
+                                <button class="inspect-btn">
+                                    <img src="assets/images/icon_show.svg" alt="info button">
+                                </button>
+                            </div>
                         </div>
-                        <div class="col-3">
-                            <button class="inspect-btn">
-                                <img src="assets/images/icon_show.svg" alt="info button">
-                            </button>
-                        </div>
-                    </div>        
-                </a></div>
-
-                <div class="list-item"><a href="#" class="cool-link">
-                    <div class="row blue-box">
-                        <div class="col-9">
-                            <p class="text-jp-thin big-text">手話</p>
-                            <p class="text-dutch small-text">Gebarentaal</p>
-
-                        </div>
-                        <div class="col-3">
-                            <button class="inspect-btn">
-                                <img src="assets/images/icon_show.svg" alt="info button">
-                            </button>
-                        </div>
-                    </div>        
-                </a></div>
+                    </a></div>
 
                 <div class="list-item"><a href="#" class="cool-link">
-                    <div class="row blue-box">
-                        <div class="col-9">
-                            <p class="text-jp-thin big-text">話し言葉</p>
-                            <p class="text-dutch small-text">Spreektaal</p>
+                        <div class="row blue-box">
+                            <div class="col-9">
+                                <p class="text-jp-thin big-text">手話</p>
+                                <p class="text-dutch small-text">Gebarentaal</p>
 
+                            </div>
+                            <div class="col-3">
+                                <button class="inspect-btn">
+                                    <img src="assets/images/icon_show.svg" alt="info button">
+                                </button>
+                            </div>
                         </div>
-                        <div class="col-3">
-                            <button class="inspect-btn">
-                                <img src="assets/images/icon_show.svg" alt="info button">
-                            </button>
-                        </div>
-                    </div>        
-                </a></div>
+                    </a></div>
 
                 <div class="list-item"><a href="#" class="cool-link">
-                    <div class="row blue-box">
-                        <div class="col-9">
-                            <p class="text-jp-thin big-text">翻訳</p>
-                            <p class="text-dutch small-text">Translate</p>
+                        <div class="row blue-box">
+                            <div class="col-9">
+                                <p class="text-jp-thin big-text">話し言葉</p>
+                                <p class="text-dutch small-text">Spreektaal</p>
 
+                            </div>
+                            <div class="col-3">
+                                <button class="inspect-btn">
+                                    <img src="assets/images/icon_show.svg" alt="info button">
+                                </button>
+                            </div>
                         </div>
-                        <div class="col-3">
-                            <button class="inspect-btn">
-                                <img src="assets/images/icon_show.svg" alt="info button">
-                            </button>
+                    </a></div>
+
+                <div class="list-item"><a href="#" class="cool-link">
+                        <div class="row blue-box">
+                            <div class="col-9">
+                                <p class="text-jp-thin big-text">翻訳</p>
+                                <p class="text-dutch small-text">Translate</p>
+
+                            </div>
+                            <div class="col-3">
+                                <button class="inspect-btn">
+                                    <img src="assets/images/icon_show.svg" alt="info button">
+                                </button>
+                            </div>
                         </div>
-                    </div>        
-                </a></div>
+                    </a></div>
 
             </div>
         </div>
@@ -103,3 +118,18 @@
     </main>
 
 </body>
+
+<script type="text/javascript">
+    function switchToNl() {
+        const element = document.getElementById("text-content");
+        element.innerHTML = "Welkom op de Amsterdamse website Begrijpend lezen. Deze site is gemaakt om u te helpen het Nederlands te begrijpen dat u in Amsterdam zult tegenkomen.";
+        element.classList.add("text-dutch");
+        element.classList.remove("text-jp-thin");
+    }
+    function switchToJp() {
+        const element = document.getElementById("text-content");
+        element.innerHTML = "アムステルダムのウェブサイト読解へようこそ。このサイトは、アムステルダムで出会うオランダ語を理解するのに役立つように作成されました。";
+        element.classList.add("text-jp-thin");
+        element.classList.remove("text-dutch");
+    }
+</script>

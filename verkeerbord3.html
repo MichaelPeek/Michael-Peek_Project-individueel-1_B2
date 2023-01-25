@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>BLIA_Obstakel</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+    <div class="hamburger-menu">
+        <input id="menu-toggle" type="checkbox" />
+        <label class="menu-btn" for="menu-toggle">
+            <span></span>
+        </label>
+
+        <ul class="menu-box text-dutch">
+            <li><a class="menu-item" href="index.html">Home</a></li>
+            <li><a class="menu-item" href="bordzoeken.html">Verkeersborden</a></li>
+            <li><a class="menu-item" href="#">Gebarentaal</a></li>
+            <li><a class="menu-item" href="#">Spreektaal</a></li>
+            <li><a class="menu-item" href="#">Translate</a></li>
+            <li><a class="menu-item" href="mailto:michael.peek@hva.nl">Feedback</a></li>
+            <li class="menu-item">
+                <p>gemaakt door Michael Peek</p><img src="assets/images/jp_logo_vierkant.svg" alt="logo vierkant">
+            </li>
+        </ul>
+    </div>
+
+    <h1 class="text-dutch text-color-white header-text text-center" style="margin-bottom:20px">Verkeersbord</h1>
+
+    <a class="back-btn" href="bordzoeken.html">
+        <img src="assets/images/icon_back.svg" alt="back">
+    </a>
+
+    <main class="container">
+        <div class="row">
+            <div class="col-6"><img src="assets/images/bord_paal.svg" alt="Fietspad"></div>
+            <div class="col-6">
+                <div class="title-box">
+                    <p class="text-jp-normal text-color-white text-title title-text">可動障害物</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12 list">
+                <div class="list-item text-color-white">
+                    <div class="row blue-box">
+                        <div class="col-12">
+                            <p class="text-dutch">Beweegbaar obstakel</p>
+                            <p id="text-content" class="text-dutch" style="font-size: 10px; margin-bottom: 6px;">
+                                Dit verkeersbord waarschuwt je voor een elektrische in en uitschuifbare paal in de weg.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-6">
+                <button class="btn-language text-color-white" type="button" onclick="switchToNl()">Nederlands</button>
+            </div>
+            <div class="col-6">
+                <button class="btn-language text-color-white" style="float:right;" type="button"
+                    onclick="switchToJp()">日本</button>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12">
+                <iframe src="https://www.youtube.com/embed/R_FQU4KzN7A?controls=0"
+                    style="border: none; border-radius: 6px;"></iframe>
+            </div>
+        </div>
+
+        <div class="row list">
+            <div class="col-4 list-item">
+                <a href="verkeerbord2.html" class="cool-link">
+                    <div class="blue-box" style="height: 115%;">
+                        <p class="text-dutch text-center">vorige</p>
+                    </div>
+                </a>
+            </div>
+            <div class="col-4 list-item"></div>
+            <div class="col-4 list-item">
+                <a href="#" class="cool-link">
+                    <div class="blue-box" style="height: 115%;">
+                        <p class="text-dutch text-center">volgend</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+    </main>
+
+</body>
+
+<script type="text/javascript">
+    function switchToNl() {
+        console.log(document.getElementById("text-content").innerHTML)
+        document.getElementById("text-content").innerHTML = "Dit verkeersbord waarschuwt je voor een elektrische in en uitschuifbare paal in de weg.";
+    }
+    function switchToJp() {
+        document.getElementById("text-content").innerHTML = "この交通標識は、道路に電動格納式および格納式ボラードがあることを警告しています。";
+    }
+</script>
