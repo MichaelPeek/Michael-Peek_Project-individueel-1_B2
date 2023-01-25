@@ -57,12 +57,15 @@ div {
 }
 
 .header-text {
-    text-decoration: underline;
     text-transform: uppercase;;
 }
 
 .text-title {
-    font-size: 44px;
+    font-size: 36px;
     text-align: center;
-    padding-top: 30px;
+    padding-top: 28px;
+}
+
+.title-style {
+    box-shadow: 60px -16px red;
 }
